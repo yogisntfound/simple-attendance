@@ -1,2 +1,1 @@
-# simple-attendance
-absensi sederhana
+#### README
