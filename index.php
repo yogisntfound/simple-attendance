@@ -25,7 +25,7 @@ if (isset($_SESSION['status']) && $_SESSION['status'] == "login") {
         <?php
         if (isset($_GET['message'])) {
           echo $_GET['message'];
-        }
+        
         ?>
         <input name="user_id" type="text" class="login-input" />
         <input name="password" type="password" class="login-input" />
