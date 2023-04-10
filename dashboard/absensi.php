@@ -6,7 +6,7 @@
     <th class="th">Performa</th>
   </tr>
 
-  <?php
+  <?ph
 
   include("../connection.php");
 
