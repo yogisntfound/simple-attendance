@@ -15,7 +15,7 @@ if (isset($_POST['login'])) {
 
   $result = $db->query($sql);
 
-  if ($result->num_rows > 0) {
+  i ($result->num_rows > 0) {
     while ($data = $result->fetch_assoc()) {
       session_start();
       $_SESSION['user_id'] = $data['user_id'];
