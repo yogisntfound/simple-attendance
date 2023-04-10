@@ -49,7 +49,7 @@
   cursor: pointer;
 }
 
-.login-buttonhover {
+.login-button:hover {
   background-color: #eaeaea;
   color: #333;
   transition: .3s ease-in-out;
