@@ -18,7 +18,7 @@ class Users
     return $this->user_id;
   }
 
-  functio get_password()
+  function get_password()
   {
     return $this->password;
   }
