@@ -6,7 +6,7 @@ $db_name = "db_absen";
 
 $db = new mysqli($hostname, $username, $password, $db_name);
 
-f ($db->connect_error) {
+if ($db->connect_error) {
   echo "connection failed!";
 }
 
