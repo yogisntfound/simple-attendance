@@ -30,7 +30,7 @@ if (isset($_POST['login'])) {
       }
     }
 
-  } else {
+   else {
     header("location:index.php?message=silahkan masukan data yang benar 😉");
   }
 
